@@ -78,8 +78,8 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Zachary Taylor}{ %\urlstyle{same}\href{http://example.com}{example.com}| \href{http://example2.co}{example2.co}\\
-\href{mailto:zacharydtaylor1997@gmail.com}{zacharydtaylor1997@gmail.com} | \href{tel:16156635675}{615.663.5675}
+\namesection{John Doe}{ %\urlstyle{same}\href{http://example.com}{example.com}| \href{http://example2.co}{example2.co}\\
+\href{mailto:john.doe@example.com}{john.doe@example.com} | \href{tel:11111111111}{111.111.1111}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -95,9 +95,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{ADTRAN}
+\runsubsection{Company A}
 \descript{| Advanced Development Intern }
-\location{May 2018 – Aug 2018 | Huntsville, AL}
+\location{May 2018 – Aug 2018 | Somewhere, XX}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Developed a cloud-based solution to automate and enhance the engineering process for network installation using AWS and Python.
@@ -107,9 +107,9 @@
 \end{tightemize}
 \sectionsep
 
-\runsubsection{ExxonMobil IT}
+\runsubsection{Company B}
 \descript{| Intern }
-\location{Feb 2017 – Nov 2017 | The Woodlands, TX}
+\location{Feb 2017 – Nov 2017 | Somewhere, XX}
 \begin{tightemize}
 \item Coordinated with multiple departments to lead a software product evaluation resulting in a fit-for-purpose verdict and provided a recommendation on moving forward.
 \item Organized meetings with the vendor to receive in-depth product information and answers to cross-departmental questions.
@@ -119,9 +119,9 @@
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Mississippi State University ITS}
+\runsubsection{My University ITS}
 \descript{| Assistant Support Specialist }
-\location{Aug 2015 – Oct 2016 | Mississippi State, MS}
+\location{Aug 2015 – Oct 2016 | Somewhere, XX}
 \begin{tightemize}
 \item Interacted with clients to assess their problems and implement a solution in an efficient, friendly manner.
 \item Prepared workstations and laptops for future use by company employees.
@@ -134,9 +134,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
-\runsubsection{State Space Robotics Team}
+\runsubsection{Space Robotics Team}
 \descript{| Path-Planning Lead}
-\location{Jan 2018 – Present | Mississippi State, MS}
+\location{Jan 2018 – Present | Somewhere, XX}
 \begin{tightemize}
 \item Spearhead the development effort for the path-planning functionality of a team of three robots.
 \item ROS provides movement servers and the planning is being implemented in Python to allow for fully-autonomous operation.
@@ -145,9 +145,9 @@
 
 \runsubsection{Chit Chat}
 \descript{| Class Project for Distributed Client-Server Programming}
-\location{Jan 2018 – May 2018 | Mississippi State, MS}
+\location{Jan 2018 – May 2018 | Somewhere, XX}
 \begin{tightemize}
-\item Lead the development of \textbf{\href{https://github.com/ZDTaylor/ChitChat}{Chit Chat}}, an anonymous chat application created as a class project.
+\item Lead the development of \textbf{\href{https://github.com/user/repo}{Chit Chat}}, an anonymous chat application created as a class project.
 \item Chit Chat provides real-time communication while utilizing a PHP backend and AngularJS frontend.
 \end{tightemize}
 \sectionsep
@@ -232,9 +232,9 @@
 
 \section{Education}
 
-\subsection{Mississippi State University}
+\subsection{My University}
 \descript{Bachelor of Science in Computer Science with minors in Mathematics and Statistics}
-\location{Expected Dec 2019 | Starkville, MS}
+\location{Expected Dec 2019 | Somewhere, XX}
 % College of Engineering \\
 Dean's List (All Semesters) \\
 \location{ Cum. GPA: 4.0 / 4.0}
@@ -286,7 +286,7 @@ Introduction to Probability \\
 \section{Societies}
 Association for Computing Machinery (ACM)\\
 Scrum Alliance Certified ScrumMaster\\
-Shackouls Honors College\\
+University Honors College\\
 National Merit Scholarship Finalist \\
 \sectionsep
 
@@ -295,9 +295,8 @@ National Merit Scholarship Finalist \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links}
-Github:// \href{https://github.com/ZDTaylor}{\bf ZDTaylor} \\
-LinkedIn://  \href{https://www.linkedin.com/in/zacharydtaylor1}{\bf zacharydtaylor1} \\
-Career Center:// \href{https://msstate-csm.symplicity.com/profiles/zachary.taylor3}{\bf zachary.taylor3}
+Github:// \href{https://github.com/}{\bf JohnDoe} \\
+LinkedIn://  \href{https://www.linkedin.com/}{\bf johndoe}
 \sectionsep
 
 \end{minipage}
