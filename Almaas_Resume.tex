@@ -21,41 +21,6 @@
 % default. If you get compilation errors saying a font is missing, find the line
 % on which the font is used and either change it to a font included with your
 % operating system or comment the line out to use the default font.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% TODO:
-% 1. Add various styling and section options and allow for multiple pages smoothly.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.3:
-% 1. Removed MacFonts version as I have no desire to maintain it nor access to macOS
-% 2. Switched column ordering
-% 3. Changed font styles/colors for easier human readability
-% 4. Added, removed, and rearranged sections to reflect my own experience
-% 5. Hid last updated
-%
-% v1.2:
-% 1. Added publications in place of societies.
-% 2. Collapsed a portion of education.
-% 3. Fixed a bug with alignment of overflowing long last updated dates on the top right.
-%
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \documentclass[]{deedy-resume-reversed}
@@ -66,18 +31,13 @@
 
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \namesection{Almaas Shaikh}{ %\urlstyle{same}\href{http://example.com}{example.com}| \href{http://example2.co}{example2.co}\\
 \href{mailto:almaas0123@gmail.com}{almaas0123@gmail.com} | \href{tel:9408145797}{94081 45797}
 }
@@ -93,6 +53,86 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Perfect Associates (via ST)}
+\descript{| Product Owner}
+\location{Oct 2022 – Present | Ahmedabad}
+\vspace{\topsep}
+\begin{tightemize}
+\item Product Owner for a B2B e-commerce platform and ERP in the mobile parts industry.
+\item Led requirements gathering and solution discovery, aligning with MACH principles and business goals.
+\item Developed prioritised roadmaps with cross-functional teams and stakeholders.
+\item Managed API integrations with insurance, logistics, and payment providers, improving transaction processing by 20\%.
+\item Implemented a 3P RPA system in the warehouse, reducing handling costs by 20\% and enabling 5K+ daily order picking.
+\item Led migration from monolith to microservices, improving feature delivery and uptime.
+\item Created requirement documents, user stories, UML-BPMN diagrams, and managed UAT with stakeholder showcases.
+\item Directed systems integration testing for seamless releases.
+\item Facilitated backlog grooming with dev and QA teams, ensuring timely delivery.
+\item Implemented continuous feedback loops for process improvement.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Steamroll Technologies}
+\descript{| Product Owner / Business Analyst}
+\location{Jul 2018 – Oct 2022 | Ahmedabad}
+\begin{tightemize}
+\item Delivered 10+ enterprise IT projects, overseeing requirements, roadmaps, and cross-functional coordination.
+\item Presented scope and deliverables to senior bureaucrats for G2G and G2B projects.
+\item Drafted RFPs and evaluated vendor proposals for strategic selection.
+\item Led client engagement across pre- and post-sales, increasing satisfaction by 30\%.
+\item Facilitated Agile ceremonies: sprint planning, reviews, stand-ups, and backlog refinement.
+\item Recommended process optimizations using BPMN/UML diagrams, boosting enterprise efficiency.
+\item Transitioned teams to Agile tools (Jira, Confluence) for better project tracking and communication.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Empowering CPO}
+\descript{| Business Analyst}
+\location{Jan 2018 – Jun 2018 | Ahmedabad}
+\begin{tightemize}
+\item Conducted spend analysis, achieving a 12\% cost reduction on a \$150K budget.
+\item Performed competitive research for GTM positioning and pricing.
+\item Advised global CPG and Aviation clients on procurement strategies.
+\item Developed category-specific strategies through data and market research, enhancing partner selection.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Gujarat Agro Industries Corporation Ltd.}
+\descript{| Management Trainee}
+\location{Jul 2017 – Sep 2017 | Gandhinagar}
+\begin{tightemize}
+\item Reviewed ERP and mobile app implementation, improving usability.
+\item Assisted in financial data analysis for insurance products and pricing forecasts.
+\item Developed credit policy that reduced late payments by 20\%.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Peerbits Solutions}
+\descript{| Content Writer}
+\location{May 2016 – Aug 2016 | Ahmedabad}
+\begin{tightemize}
+\item Improved web traffic by 25\% and CTR by 30\% via 20+ blog posts.
+\item Conducted keyword research to enhance SEO.
+\item Created persuasive content, increasing average page visit durations.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{RapidOps Inc.}
+\descript{| Software Engineer Intern}
+\location{Jan 2016 – Apr 2016 | Ahmedabad}
+\begin{tightemize}
+\item Developed custom BigCommerce APIs using MEAN stack and Apache Solr.
+\item Optimized website performance, cutting load times by 40\%.
+\item Participated in code reviews and created technical documentation.
+\end{tightemize}
+\sectionsep
+
 
 \section{Experience}
 \runsubsection{TecStub India LLP}
@@ -230,14 +270,26 @@
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education}
+\section{Summary}
 
-\subsection{Master of Business Administration}
-\descript{MBA - dual specialisation Finance \& Marketing}
-\location{2018 | BKSBM, GU}
+A strategic PO \& BA with a passion for leading digital transformation in complex environments like E-commerce, ERP, \& the Public Sector. Thrives on bridging the gap between business goals and technical execution, fostering collaboration to optimize workflows and deliver user-centric products. A quick learner dedicated to creating tangible business value.
 \sectionsep
 
-\subsection{Bachelor of Engineering}
+\section{Education}
+
+\subsection{Post Graduation}
+\descript{MBA - dual specialisation Finance \& Marketing}
+\location{2018 | BKSBM, GU}
+\descript{MA - Sociology}
+\location{expected 2026 | MSO, IGNOU}
+\sectionsep
+
+%\subsection{Master of Business Administration}
+%\descript{MBA - dual specialisation Finance \& Marketing}
+%\location{2018 | BKSBM, GU}
+%\sectionsep
+
+\subsection{Graduation}
 \descript{BE in Computer Science}
 \location{2016 | AIT, GTU}
 Dean's List (All Semesters) \\
@@ -249,32 +301,50 @@ Dean's List (All Semesters) \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Key Skills}
+
 \subsection{Product \& Agile}
 Product Roadmapping\\
-Backlog Grooming \& Prioritisation\\
+Stakeholder Management \& Alignment\\
+User Persona \& Journey Mapping\\
+Market Research \& Competitive Analysis\\
 Agile \& Scrum Methodologies\\
 User Story \& Epic Creation\\
-API Product Management\\
-Stakeholder Management\\
-User Story \& Epic Creation\\
+Backlog Grooming \& Prioritisation\\
+% API Product Management\\
 
+\sectionsep
+
+\subsection{Business Analysis}
+Requirements Elicitation \& Management\\
+Process Modelling\\
+Gap Analysis \& Solution Design\\
+Documentation\\
+User Acceptance Testing (UAT)\\ABC 
+Cross-Functional Team Leadership\\
 \sectionsep
 
 \subsection{Tools \& Tech}
-Jira \& Confluence \textbullet{} RPA Implementation \\ E-commerce Platforms \textbullet{} ERP Systems \\ SQL Git/Github \textbullet{} AWS \textbullet{} Linux \\
-UNIX \textbullet{} Windows \textbullet{} ROS \\
-Artificial Intelligence \textbullet{} Automation \\
 
+Jira - Confluence \textbullet{} Trello \textbullet{} Lucidchart\\
+Figma \textbullet{} GitHub \textbullet{} Productboard Aha\\
+SQL \textbullet{} Power BI \textbullet{} GA \textbullet{} Mixpanel\\
 \sectionsep
+
+%\subsection{Tools \& Tech}
+%\textbf{Agile \& PM:} Jira \textbullet{} Confluence \textbullet{} Trello \\
+%\textbf{Analysis \& Design:} Miro \textbullet{} Lucidchart \textbullet{} MS Visio \textbullet{} Figma \\
+%\textbf{Data \& Analytics:} SQL \textbullet{} Tableau \textbullet{} Power BI \textbullet{} Google Analytics \\
+%\textbf{Technical Concepts:} API Integration \textbullet{} Microservices Architecture \textbullet{} RPA \\
+%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Competitive Awards
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Competitive Awards}
-National Case Studies (under publication)\\
 Open Gov Data Hackathon\\
 Smart India Hackathon\\
+National Case Studies (under publication)\\
 
 \sectionsep
 
@@ -282,9 +352,9 @@ Smart India Hackathon\\
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links}
-LinkedIn://  \href{https://www.linkedin.com/}{\bf johndoe}
-\sectionsep
+%\section{Links}
+%LinkedIn://  \href{https://www.linkedin.com/}{\bf johndoe}
+%\sectionsep
 
 \end{minipage}
 \end{document}  \documentclass[]{article}
