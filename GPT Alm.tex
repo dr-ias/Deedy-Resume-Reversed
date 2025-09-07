@@ -1,0 +1,133 @@
+% Almaas Shaikh - Strategic Business Analyst Resume (XeLaTeX)
+% Paste into Overleaf or local editor and compile with XeLaTeX
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\usepackage{enumitem}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{multicol}
+
+% Fonts
+\setmainfont{TeX Gyre Heros} % or another modern sans font
+
+% Colors
+\definecolor{primary}{HTML}{2E86C1} % Navy blue
+\definecolor{graytext}{gray}{0.4}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{primary}}{}{0em}{}
+\titlespacing{\section}{0pt}{10pt}{4pt}
+
+% Resume bullets
+\newcommand{\resumeItem}[1]{\item \textbullet\ #1}
+\newcommand{\resumeSubItem}[1]{\item[--] #1}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% ==== Header ====
+\noindent
+{\LARGE \textbf{Almaas Shaikh}} \\[2pt]
+\href{mailto:almaas0123@gmail.com}{almaas0123@gmail.com} $\vert$ +91-88491 40665 $\vert$ Ahmedabad $\vert$
+\href{https://linkedin.com/in/almaasshaikh}{linkedin.com/in/almaasshaikh} \\[6pt]
+\textcolor{graytext}{Strategic Business Analyst with 8+ years in civic tech, payments, logistics, and procurement. Expert in Agile delivery, partner API integrations, and public sector systems. Converts ambiguity into user-centric roadmaps and measurable results.}
+
+% ==== Skills ====
+\section*{Core Skills}
+\begin{multicols}{2}
+\textbf{Product \& Strategy}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Product Roadmapping, Partner APIs
+  \item Market \& Competitor Analysis
+  \item User Journey Mapping
+\end{itemize}
+
+\textbf{Agile \& Execution}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Epics, User Stories, Acceptance Criteria
+  \item Backlog Grooming, UAT
+  \item Process Modeling (BPMN, Gap Analysis)
+\end{itemize}
+
+\textbf{Tools}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Jira, Confluence, Productboard
+  \item Figma, Miro, Lucidchart, Notion
+  \item SQL, Power BI, Looker Studio, Mixpanel
+\end{itemize}
+\end{multicols}
+
+% ==== Experience ====
+\section*{Professional Experience}
+
+\textbf{CIVIC TECH (NDA)}\hfill \textit{Business Analyst Consultant}\\
+\textit{Nov 2024 – Present | Ahmedabad}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \resumeItem{Unified feedback \& backlog system across stakeholders increased roadmap confidence by 50\%.}
+  \resumeItem{Improved underserved onboarding flows, reducing drop-offs by 33\%.}
+  \resumeItem{Led kiosk/mobile UAT, resolving 10+ major usability blockers pre-launch.}
+\end{itemize}
+
+\textbf{TecStub} \hfill \textit{Business Analyst}\\
+\textit{Nov 2023 – Oct 2024 | Ahmedabad}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \resumeItem{Drove monolith-to-microservices shift, cutting incidents by 40\%, enabling weekly deployments.}
+  \resumeItem{Automated warehouse ops via RPA, reducing handling costs by 20\%.}
+  \resumeItem{Built backlog of 200+ stories with BPMN flows, reducing dev rework by 30\%.}
+  \resumeItem{Integrated 10+ partner APIs, improving transaction throughput by 20\%.}
+\end{itemize}
+
+\textbf{Steamroll Technologies} \hfill \textit{Business Analyst}\\
+\textit{Jul 2018 – Oct 2023 | Ahmedabad}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \resumeItem{Launched G2C/G2B GRAS payment portal used by 3K+ users, cutting payment queries by 40\%.}
+  \resumeItem{Drove Agile transition via Jira, Confluence, and team coaching, speeding delivery by 25\%.}
+  \resumeItem{Managed RFP to vendor finalization, delivering project 15\% under budget.}
+  \resumeItem{Increased client satisfaction by 30\% via executive reporting and support.}
+\end{itemize}
+
+\section*{Early Experience}
+\textbf{Empowering CPO} \hfill \textit{Business Analyst}\\
+\textit{Jan – Jun 2018}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \resumeItem{Saved \$18K (12\%) on \$150K procurement via strategic cost modeling.}
+\end{itemize}
+
+\textbf{Gujarat Agro Industries Corp.} \hfill \textit{Mgmt Trainee}\\
+\textit{Jul – Sep 2017}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \resumeItem{Designed credit policy that reduced late payments by 20\%.}
+\end{itemize}
+
+\textbf{Peerbits Solutions} \hfill \textit{Content Writer}\\
+\textit{May – Aug 2016}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \resumeItem{Increased web traffic by 25\% with SEO-rich blog content.}
+\end{itemize}
+
+\textbf{RapidOps Inc.} \hfill \textit{Software Intern}\\
+\textit{Jan – Apr 2016}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \resumeItem{Built custom APIs in MEAN stack, improving site load time by 40\%.}
+\end{itemize}
+
+% ==== Education ====
+\section*{Education}
+\textbf{MBA – Finance \& Marketing} \hfill BKSBM, Gujarat University, 2018\\
+\textbf{BE – Computer Science} \hfill AIT, GTU, 2016
+
+% ==== Awards ====
+\section*{Awards \& Recognition}
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Winner – OpenGovData Hackathon
+  \item Finalist – Smart India Hackathon
+  \item National Case Study Competitions (under publication)
+\end{itemize}
+
+\end{document}
